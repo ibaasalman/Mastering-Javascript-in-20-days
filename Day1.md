@@ -14,8 +14,8 @@ DOM (Document Object Model)  : is a programming interface for web documents. It 
 2. Finding HTML elements by tag name : document.getElementsByTagName("test");
 3. Finding HTML elements by class name :  document.getElementsByClassName("test");
 4. Finding HTML elements by CSS selectors :
-  1.  document.querySelectorAll("test");
-  2.  document.querySelector("test");
+    1.  document.querySelectorAll("test");
+    2.  document.querySelector("test");
 
 # DELIEVERABLES	💻
 
