@@ -6,11 +6,11 @@
 data types in javascript are one of two options Primitive  or Non-Primitive 
 
 Primitive :
-1.Number
-2.String
-3.Boolean
-4.Undefined
-5.Null
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
 
 Non-Primitive :
 1.Object
