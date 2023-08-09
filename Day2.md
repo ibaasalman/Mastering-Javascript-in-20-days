@@ -43,8 +43,8 @@ Undefined means the variable has been declared, but its value has not been assig
 ## Operators in Java-Script:
 
 1. Arithmetic Operators
-   1.1 add (+)
-   1.2 Subtract (-)
+   1.1. add (+)
+   1.2. Subtract (-)
    1.3 Multiply (*)
    1.4 Divide (/)
 
