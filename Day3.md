@@ -50,7 +50,8 @@ we can store different data types in same obj and we can use arrays and nested o
 
 # DELIEVERABLES	💻
 
-## #1 : Copy Array Items Using slice() link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice
+## #1 : Copy Array Items Using slice() 
+#### link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice
 
 ```js
 function forecast(arr) {
@@ -63,7 +64,8 @@ function forecast(arr) {
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
 
-## #2 : Combine Arrays with the Spread Operator link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator
+## #2 : Combine Arrays with the Spread Operator
+#### link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator
 
 ```js
 function spreadOut() {
@@ -75,3 +77,43 @@ function spreadOut() {
 console.log(spreadOut());
 ```
 
+## #3 : Write Reusable JavaScript with Functions
+#### link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions
+
+```js
+function reusableFunction() {
+  console.log("Hi World")
+}
+reusableFunction();
+```
+
+## #4 : Understanding Undefined Value returned from a Function
+#### link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function
+
+```js
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+```
+## #5 : Return a Value from a Function with Return
+#### link : https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return
+
+```js
+function timesFive(x){
+  return x*5;
+}
+```
