@@ -1,7 +1,5 @@
 # Summary of what i learned today 🧑‍🏫
 
-# introduction 📢
-
 ## Arrays 🚩
 an array is an ordered list of values. Each value is called an element specified by an index .
 in JavaScript we can store different data types in same array like string number boolean etc..
