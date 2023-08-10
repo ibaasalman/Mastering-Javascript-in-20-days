@@ -3,13 +3,52 @@
 # introduction 📢
 
 ## Arrays 🚩
+an array is an ordered list of values. Each value is called an element specified by an index .
+in JavaScript we can store different data types in same array like string number boolean etc..
 
+### JavaScript Array Methods :
 
+1. length : eturns the length/size of an array
+2. toString() : converts an array to a string
+3. join() : just like the previous one but  in addition you can specify the separator 
+4. pop() : removes the last element and return it as value
+5. push() : append element at the end of array
+6. shift() : removes the first array element
+7. unshift() : add element at the start of an array
+8. delete() : Array elements can be deleted using the JavaScript operator delete , Using delete leaves undefined holes in the array.
+9. concat() : creates a new array by merging it with another one 
+10. flat() : attening an array is the process of reducing the dimensionality of an array.
+11. splice() : add new items to an array at certin index
+12. slice() : emove elements without leaving "holes" in the array
+13. sort() : to sort array
 
+### Mutable Vs Immutable :
+1. Mutable: data can be edited (e.g. Arrays)
+2. Immutable : data cannot be edited (e.g. Strings & other Primitives)
+3. Note : when you edit string value you are creating new one and change the refrence of the variable to this new one
 
 ## Objects 🚩 :
+objects mean a collection of properties 
 
+EX.
+```js 
+const js ={
+  name: "JavaScript",
+  abbreviation: "JS",
+  isAwesome: true,
+  officialSpec: "EcmAscript",
+  birthYear: 1995,
+  creator: "Brendan Eich"
+}:
+```
 
+we can access the valuse by two ways
+1. dot notation : ex) js.name
+2. bracket notation : ex) js[name]
+
+we can store different data types in same obj and we can use arrays and nested obj or mix of them .
 
 # DELIEVERABLES	💻
+
+## 
 
