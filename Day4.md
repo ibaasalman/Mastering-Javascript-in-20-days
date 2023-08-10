@@ -17,7 +17,15 @@ If the function was invoked from a statement, JavaScript will "return" to execut
 Variables declared within a JavaScript function, become LOCAL to the function.
 Local variables can only be accessed from within the function.
 
+### Arrow Function
+Arrow functions were introduced in ES6.
 
+Arrow functions allow us to write shorter function syntax:
+
+ex)
+```js
+(a, b) => a * b;
+```
 
 ##  🚩 :
 
