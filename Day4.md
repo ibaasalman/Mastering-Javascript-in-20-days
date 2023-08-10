@@ -3,8 +3,23 @@
 
 ## Functions 🚩
 block of code designed to perform a particular task and a function is executed when  invokes it (calls it).
+A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
 
-## Objects 🚩 :
+### Function Return
+When JavaScript reaches a return statement, the function will stop executing.
+
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+### Local Variables
+Variables declared within a JavaScript function, become LOCAL to the function.
+Local variables can only be accessed from within the function.
+
+
+
+##  🚩 :
 
 
 # DELIEVERABLES	💻
