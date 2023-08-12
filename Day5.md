@@ -3,6 +3,19 @@
 
 ## Conditionals 🚩
 
+Conditional statements are used to perform different actions based on different conditions.
+
+1. Use if to specify a block of code to be executed, if a specified condition is true
+2. Use else to specify a block of code to be executed, if the same condition is false
+3. Use else if to specify a new condition to test, if the first condition is false
+
+### Conditional (ternary) operator :
+
+The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.
+
+```js
+condition ? exprIfTrue : exprIfFalse
+```
 
 ## Map & filter 🚩 :
 
