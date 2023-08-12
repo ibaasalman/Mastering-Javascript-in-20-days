@@ -28,6 +28,13 @@ array.map(function(currentValue, index, arr), thisValue)
 
 ### filter()
 
+The filter() method creates a new array filled with elements that pass a test provided by a function, it does not execute the function for empty elements.
+The filter() method does not change the original array.
+
+```js
+array.filter(function(currentValue, index, arr), thisValue)
+```
+
 # DELIEVERABLES	💻
 
 
