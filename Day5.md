@@ -19,6 +19,14 @@ condition ? exprIfTrue : exprIfFalse
 
 ## Map & filter 🚩 :
 
+### map()
+map() creates a new array from calling a function for every array element , it does not execute the function for empty elements , it does not change the original array.
+
+```js
+array.map(function(currentValue, index, arr), thisValue)
+```
+
+### filter()
 
 # DELIEVERABLES	💻
 
