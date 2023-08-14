@@ -3,9 +3,11 @@
 
 
 ## Data Fetching & Promises 🚩 :
-
+The fetch() method starts the process of fetching a resource from a server.
+The fetch() method returns a Promise that resolves to a Response object.
 
 ## Destructuring Data 🚩 :
+The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
 ## Async🚩 :
 The keyword async before a function makes the function return a promise
