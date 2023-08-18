@@ -24,3 +24,5 @@ This is a challenge to learn and master Javascript in 20 days or less 🌝 . My 
 - [Day 6](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/blob/main/Day6.md) + [RickandMorty Project](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/tree/main/RickandMorty)
 - [Day 7](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/blob/main/Day7.md)
 - [Day 8](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/blob/main/Day8.md)
+- [Day 9](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/blob/main/Day9.md)
+- [Day 10](https://github.com/ibaasalman/Mastering-Javascript-in-20-days/blob/main/Day10.md)
