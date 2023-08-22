@@ -25,3 +25,43 @@ asynchronous world
 - Asynchronous JavaScript: Callbacks and Promises rely on closure to persist state in an asynchronous environment
 
 # DELIEVERABLES	💻
+
+## #1: Write a closure named createCounter that takes an initial value start and returns a function. The returned function, when invoked, should increment the counter by 1 and return the updated value
+```js
+function createCounter(start) {
+  let counter = start; // Initialize the counter with the provided initial value
+
+  // Define and return the inner function
+  return function() {
+    counter++; // Increment the counter by 1
+    return counter; // Return the updated value
+  };
+}
+```
+## #2:Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. The returned function, when invoked, should calculate and return the average of the numbers in the array.
+
+```js
+function calculateAverage(nums) {
+  // Ensure nums is not empty to avoid division by zero
+  if (nums.length === 0) {
+    return function() {
+      return 0; // Return 0 if array is empty
+    };
+  }
+
+  // Define and return the inner function
+  return function() {
+    const sum = nums.reduce((acc, num) => acc + num, 0); // Calculate the sum of the numbers
+    return sum / nums.length; // Calculate and return the average
+  };
+}
+
+```
+## #3:
+```js
+
+```
+## #4:
+```js
+
+```
