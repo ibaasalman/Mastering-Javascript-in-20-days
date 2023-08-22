@@ -54,9 +54,55 @@ function urlSlug(title) {
 urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 ```
 
-## #3 :  
-#### link : 
+## #3 :  Implement a JavaScript function called mapAsync that takes an array and a callback function. The function should map each element of the array to a new value using the callback function asynchronously.
+
+The final result should be returned as a Promise.
 
 ```js
+function mapAsync(array, callback) {
+  return new Promise((resolve, reject) => {
+    const results = [];
+    let completedCount = 0;
+
+    if (array.length === 0) {
+      resolve(results);
+      return;
+    }
+
+    array.forEach((element, index) => {
+      callback(element)
+        .then(result => {
+          results[index] = result;
+          completedCount++;
+
+          if (completedCount === array.length) {
+            resolve(results);
+          }
+        })
+        .catch(error => {
+          reject(error);
+        });
+    });
+  });
+}
+
+```
+## #4 : Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. The function should use recursion to handle the calculation and demonstrate understanding of the call stack.
+
+```js
+
+function sumRange(start, end) {
+  if (start === end) {
+    return start; // Base case: sum of a single number is the number itself
+  } else {
+    return start + sumRange(start + 1, end); // Recursive case: add current number and sum of remaining range
+  }
+}
+
+// Example usage
+const startRange = 1;
+const endRange = 5;
+const result = sumRange(startRange, endRange);
+console.log(`Sum of integers from ${startRange} to ${endRange} is ${result}`); // Output: Sum of integers from 1 to 5 is 15
 
 ```
