@@ -402,10 +402,3 @@ The correct choice is: **C**
     * The second console.log([a, b, c]); logs the values within the if block, which are [1, 2, 3].
 4. After the if block, the final console.log([a, b, c]); logs the values of the variables in the outer scope, where a has been reassigned to 1 within the if block, b is still 100, and c is still 45.
    
-# DELIEVERABLES	💻
-
-## #1:
-
-```js
-
-```
